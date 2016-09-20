@@ -1,0 +1,21 @@
+Usage: kmerlight  -k kmerlength -f freqs  -o outputfile -i <.fa/.fa.gz/.fasta/fasta.gz OR .fq/.fq.gz/.fastq/.fastq.gz file(s)>
+
+Eg:
+
+kmerlight -k 15 -f 10 -o out.txt -i sample.fq
+
+Outputs k-mer abundance histogram values F0, f1,....,f10 for all 15-mers appearing in the input FASTQ file sample.fq
+
+kmerlight -k 21 -f 1000 -o out.txt -i inp1.fq inp2.fq
+
+Outputs k-mer abundance histogram values F0, f1,....,f1000 for all 21-mers appearing in the input FASTQ files inp1.fq and inp2.fq. The output is written to out.txt file.
+
+
+
+Warranty:
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED,
+INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, 
+TITLE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE COPYRIGHT HOLDERS OR ANYONE DISTRIBUTING 
+THE SOFTWARE BE LIABLE FOR ANY DAMAGES OR OTHER LIABILITY, WHETHER IN CONTRACT, TORT OR OTHERWISE, 
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
