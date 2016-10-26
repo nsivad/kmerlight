@@ -281,7 +281,8 @@ public:
 
 			return 0;
 		}
-		if(val == _valN){//reset
+		if((val == _valN) || (val== _valX)){//reset on symbols such as N, U, M, S etc..
+
 			KmerHash::restartKMbufNewSeg();
 			++idx;
 		}else if(val == _valGT){
