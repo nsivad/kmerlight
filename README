@@ -10,7 +10,8 @@ kmerlight -k 21 -f 1000 -o out.txt -i inp1.fq inp2.fq
 
 Outputs k-mer abundance histogram values F0, f1,....,f1000 for all 21-mers appearing in the input FASTQ files inp1.fq and inp2.fq. The output is written to out.txt file.
 
-
+Reference: Naveen Sivadasan, Rajgopal Srinivasan, Kshama Goyal. "Kmerlight: fast and accurate k-mer abundance estimation"
+(https://arxiv.org/abs/1609.05626)
 
 Warranty:
 
